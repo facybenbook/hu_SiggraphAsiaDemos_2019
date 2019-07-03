@@ -1,9 +1,9 @@
 # VR Contents for Siggraph Asia 2019
 
 *This is a Unity3d project contains three VR contesnts.(dummy demo)*
-- 1.Difficulty Adustbale Horror Game Example 
-- 2.Boxing Game with Respiration and Feedback 
-- 3.Respiration Feedback using Avatar
+- 1.Difficulty Adustbale Horror Game 
+- 2.Boxing Game with Respiration feedback 
+- 3.Respiration Feedback Demo using Avatar
 
 
 
