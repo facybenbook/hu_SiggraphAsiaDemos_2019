@@ -6,16 +6,16 @@
 - 3.Respiration Feedback Demo using Avatar
 
 
-### Difficulty Adustbale Horror Game Example 
+## Difficulty Adustbale Horror Game Example 
 
-- HorroGame without Emotion Sensing
+### HorroGame without Emotion Sensing
 
 *Scene : Scenes/ZombieMain*
 > ゾンビーを倒すFPSゲーム。マウスをクリックしてゾンビに発射、的中ならゾンビのHPが減る（Zombie_HP=10)ゾンビがPlayerのところに辿り着いたら攻撃を初める。ゾンビーに攻撃を受けるとPlauyerのHPは減る。PlayerのHPが0となるとゲームオーバー。銃の攻撃力は常に1.
 
 <p align="center"><img src="Figs/HorroGame_withoutEmotionSensing.png" width="75%"></p>
 
-- HorroGame with Emotion Sensing
+###HorroGame with Emotion Sensing
 
 *Scene : Scenes/ZombieMain_withEmotion*
 > ゾンビーを倒すFPSゲーム。感情をリアルタイムでセンシング。感情がFearになる間、銃の攻撃力は100になる.
@@ -23,7 +23,7 @@
 <p align="center"><img src="Figs/HorrorGame_withEmotionSensing.png" width="75%"></p>
 
 
-### Boxing Game with respiration feedback 
+## Boxing Game with respiration feedback 
 
 *Scene : Scenes/Boxing_withResp*
 
@@ -36,7 +36,7 @@
 
 
 
-### Respiration Feedback using Avatar
+## Respiration Feedback using Avatar
 
 *Scene : Scenes/VirtualResp*
 >深呼吸、浅い呼吸をアバタで見せる
