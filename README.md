@@ -15,7 +15,7 @@
 
 <p align="center"><img src="Figs/HorroGame_withoutEmotionSensing.png" width="75%"></p>
 
-###HorroGame with Emotion Sensing
+### HorroGame with Emotion Sensing
 
 *Scene : Scenes/ZombieMain_withEmotion*
 > ゾンビーを倒すFPSゲーム。感情をリアルタイムでセンシング。感情がFearになる間、銃の攻撃力は100になる.
