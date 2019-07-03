@@ -55,8 +55,8 @@ public class DataReader : MonoBehaviour
             index=1;
         else if (type=="bvp2")
             index=2;
-        int data_num = data_list.Length/5 - 3;
-        for(int i=0;i<data_num;i++)
+        int data_num = 501;
+        for (int i=0;i<data_num;i++)
         {
             if(data_list[index,i]!=type && data_list[index,i]!=null)
             {

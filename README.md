@@ -6,7 +6,6 @@
 - 3.Respiration Feedback Demo using Avatar
 
 
-
 ### Difficulty Adustbale Horror Game Example 
 
 - HorroGame without Emotion Sensing
@@ -24,11 +23,11 @@
 <p align="center"><img src="Figs/HorrorGame_withEmotionSensing.png" width="75%"></p>
 
 
-### Boxing Game with Respiration and Feedback 
+### Boxing Game with respiration feedback 
 
 *Scene : Scenes/Boxing_withResp*
 
->操作についで：
+操作についで：
 - 攻撃：R T F G （パンチ）
 - 守る：E
 - 移動：　↑ ↓ → ←

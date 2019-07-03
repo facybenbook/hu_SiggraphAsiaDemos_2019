@@ -23,26 +23,26 @@ public class EnvController : MonoBehaviour
      void Start () {
          _light.color = colorRelax;
      }
-     
-     void Update() {
-         if (state == "Scare" && flag)
-         {
-            lerpedColor = Color.Lerp(colorRelax, colorScare,  t);
-            _light.GetComponent<Light>().color = lerpedColor;
-            t += Time.deltaTime/duration;
-            if (t > 0.99f)
-                 flag = false;
-         }
-         else if(state=="Relax" && flag)
-         {
-            lerpedColor = Color.Lerp(colorRelax, colorScare,  t);
-            _light.color = lerpedColor;
-            t -= Time.deltaTime/duration;
-            if (t < 0.01f)
-                 flag = false;
-         }
 
-         if(gameOver)
+    void Update() {
+        if (state == "Scare" && flag)
+        {
+            lerpedColor = Color.Lerp(colorRelax, colorScare, t);
+            _light.GetComponent<Light>().color = lerpedColor;
+            t += Time.deltaTime / duration;
+            if (t > 0.99f)
+                flag = false;
+        }
+        else if (state == "Relax" && flag)
+        {
+            lerpedColor = Color.Lerp(colorRelax, colorScare, t);
+            _light.color = lerpedColor;
+            t -= Time.deltaTime / duration;
+            if (t < 0.01f)
+                flag = false;
+        }
+
+        if (gameOver && redCanvas!=null)
          {
              redCanvas.SetActive(true);
              GameObject.FindGameObjectWithTag("Weapon").GetComponent<GunScript>().GameOver();
